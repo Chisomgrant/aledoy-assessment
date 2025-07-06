@@ -533,29 +533,29 @@ footer {
     border: 1px solid #e52936;
     padding: 10px 0;
     border-radius: 20px;
-      width: 70%;
-      h3 {
-        font-size: 18px;
-        font-weight: 500;
-      }
-      p {
-        font-size: 14px;
-        font-weight: 400;
-      }
-      span{
-        background-color: #e52936;
-        color: white;
-        border-radius: 100%;
-        padding: 5px;
-      }
+    width: 70%;
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
     }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+    }
+    span {
+      background-color: #e52936;
+      color: white;
+      border-radius: 100%;
+      padding: 5px;
+    }
+  }
   .bt {
     box-shadow: 2px 2px 2px 2px rgb(228, 227, 227);
     margin-top: 20px;
     width: 70%;
     padding: 25px 0;
     border-radius: 20px;
-    span{
+    span {
       box-shadow: 2px 3px 3px 2px rgb(228, 227, 227);
       color: #e52936;
       border-radius: 100%;
@@ -571,12 +571,12 @@ footer {
 /* media query */
 
 @media (max-width: 1024px) {
-  .faq-sec1{
+  .faq-sec1 {
     margin-left: 120px;
-    .top{
+    .top {
       width: 90%;
     }
-    .bt{
+    .bt {
       width: 90%;
     }
   }
@@ -593,13 +593,13 @@ footer {
       margin-top: 80px;
     }
   }
-  .faq-sec1{
+  .faq-sec1 {
     margin-left: 60px;
-    .top{
-      h3{
+    .top {
+      h3 {
         font-size: 14px;
       }
-      p{
+      p {
         font-size: 12px;
       }
     }
@@ -616,68 +616,158 @@ footer {
 
 /* facility page starts */
 
-.fac-banner{
+.fac-banner {
   margin-top: 20px;
   margin-left: 350px;
-  .txt{
+  .txt {
     text-align: center;
     margin-top: 100px;
-    h1{
+    h1 {
       font-size: 40px;
       font-weight: 700;
-      span{
+      span {
         border-bottom: 5px solid #e52936;
       }
     }
-    p{
+    p {
       font-size: 16px;
       font-weight: 400;
     }
   }
 }
 
-.fac-sec1{
+.fac-sec1 {
   margin-top: 100px;
-  .yy{
+  .yy {
     margin-top: 23px;
   }
 }
 
 @media (max-width: 1024px) {
-  .fac-banner{
+  .fac-banner {
     margin-left: 200px;
   }
 }
 @media (max-width: 770px) {
-  .fac-banner{
+  .fac-banner {
     margin-left: 50px;
   }
 }
 @media (max-width: 545px) {
-  .fac-banner{
+  .fac-banner {
     margin-left: 0;
-    img{
+    img {
       margin-left: 120px;
     }
-    .tt{
-      img{
+    .tt {
+      img {
         margin-left: 150px;
       }
     }
   }
-  .fac-sec1{
-    .rep{
+  .fac-sec1 {
+    .rep {
       padding-bottom: 22px;
     }
-    .rpp{
+    .rpp {
       padding-top: 22px;
     }
   }
 }
 @media (max-width: 440px) {
-
 }
 
 /* facility page ends */
 
+/* contact page starts */
 
+/* banner starts */
+.contact-banner {
+  margin-top: 20px;
+  margin-left: 300px;
+  .txt {
+    text-align: center;
+    margin-top: 100px;
+    h1 {
+      font-size: 40px;
+      font-weight: 700;
+      span {
+        border-bottom: 5px solid #e52936;
+      }
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
+
+/* banner ends */
+
+.form-ctn {
+  margin-top: 100px;
+  .txt {
+    h1 {
+      font-size: 54px;
+      font-weight: 800;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+    }
+    span {
+      color: #e52936;
+    }
+    form {
+      input {
+        padding: 10px 200px 10px 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(209, 208, 208);
+        margin-bottom: 20px;
+      }
+      textarea {
+        padding: 10px 220px 80px 10px;
+        border-radius: 10px;
+        border: 1px solid rgb(209, 208, 208);
+        margin-bottom: 20px;
+      }
+      a{
+        
+      }
+    }
+  }
+  .map {
+    iframe {
+      width: 300px;
+    }
+  }
+}
+
+/* media query */
+
+@media (max-width: 1024px) {
+  .contact-banner {
+    margin-left: 160px;
+  }
+}
+@media (max-width: 770px) {
+  .contact-banner {
+    margin-left: 0;
+  }
+}
+@media (max-width: 545px) {
+  .contact-banner {
+    img {
+      margin-left: 180px;
+    }
+  }
+}
+@media (max-width: 440px) {
+  .contact-banner {
+    img {
+      margin-left: 100px;
+    }
+  }
+}
+
+/* contact page ends */
