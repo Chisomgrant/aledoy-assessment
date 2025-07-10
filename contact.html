@@ -1,267 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="icons/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
-            rel="stylesheet">
-    </head>
-    <body>
-        <!-- header starts -->
 
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="images/logo.png"
-                        alt></a>
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse menu" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">The Academy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="facility.html">Facility</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Student Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="faqs.html">FAQs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- header starts -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">The Academy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="facility.html">Facility</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Student Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faqs.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header ends -->
+
+    <!-- contact banner starts -->
+
+    <div class="contact-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-2 col-xl-2">
+                    <img src="images/facility-image/Symbols.png" alt="symbols">
+                </div>
+                <div class="col-md-6 col-lg-5 col-xl-4 txt">
+                    <h1><span>Co</span>ntact</h1>
+                    <p>You Can Get In Touch With The Details Below</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 tt">
+                    <img src="images/facility-image/Symbols2.png" alt="symbol2">
                 </div>
             </div>
-        </nav>
+        </div>
+    </div>
 
-        <!-- header ends -->
+    <!-- contact banner ends -->
 
-        <!-- contact banner starts -->
+    <!-- form starts -->
 
-        <div class="contact-banner">
+    <div class="form-ctn">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xl-5 txt">
+                    <h1>Get in <span>Touch</span></h1>
+                    <p>Enim tempor eget pharetra facilisis sed maecenas
+                        adipiscing. Eu leo molestie vel, ornare non id
+                        blandit netus.</p>
+                    <form action="post">
+                        <input type="text" name="name" id="name" placeholder="Name"><br>
+                        <input type="email" name="email" id="email" placeholder="Email"><br>
+                        <input type="text" name="pnumber" id="pnumber" placeholder="Phone"><br>
+                        <input type="text" name="subject" id="subject" placeholder="Subject"><br>
+                        <textarea name="message" id="message" placeholder="Message"></textarea><br>
+                        <a href="#">Send</a>
+                    </form>
+                </div>
+                <div class="col-md-6 col-xl-7 map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.63648036117!2d3.119142848718881!3d6.5480282433992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1751411891481!5m2!1sen!2sng"
+                        width="600" height="450" style="border:0;" allowfullscreen loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- form ends -->
+
+    <!-- contact-last sec starts -->
+
+    <div class="ct-last">
+        <div class="container">
+            <div class="ct-last1">
+                <div class="row">
+                    <div class="col-md-4 last-box">
+                        <div class="icon">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div class>
+                            <p>(+234) - 913 597 1419</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 last-box uno ik">
+                        <div class>
+                            <img src="images/contact-images/u-icon.png" alt="icon">
+                        </div>
+                        <div class>
+                            <p class="cw">training@aledoyacademy.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 last-box">
+                        <div class="icon">
+                            <i class="bi bi-cursor-fill"></i>
+                        </div>
+                        <div class>
+                            <p>Aledoy Solutions Limited
+                                Abbey Mortgage Bank Building
+                                51, Okota Road,
+                                Okota-Isolo Lagos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact-last sec ends -->
+
+    <!-- last-sec starts -->
+
+    <div class="last-sec">
+        <div class="container">
+            <p>ARE YOU READY?</p>
+            <h2>Be a part of our <span>Hall of Fame</span></h2>
+            <a href="#">JOIN US</a>
+        </div>
+    </div>
+
+    <!-- last sec-ends -->
+
+    <!-- footer starts -->
+
+    <footer>
+        <div class="footer-ctn">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-lg-2 col-xl-2">
-                        <img src="images/facility-image/Symbols.png"
-                            alt="symbols">
+                    <div class="col-md-2">
+                        <img src="images/logo.png" alt="logo">
                     </div>
-                    <div class="col-md-6 col-lg-5 col-xl-4 txt">
-                        <h1><span>Co</span>ntact</h1>
-                        <p>You Can Get In Touch With The Details Below</p>
+                    <div class="col-md-2">
+                        <ul>
+                            <li>Quicklinks</li>
+                            <li><a href="#">The Academy</a></li>
+                            <li><a href="facility.html">Facility</a></li>
+                            <li><a href="faqs.html">FAQs</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
                     </div>
-                    <div class="col-md-2 col-lg-2 col-xl-2 tt">
-                        <img src="images/facility-image/Symbols2.png"
-                            alt="symbol2">
+                    <div class="col-md-2">
+                        <ul>
+                            <li>Course</li>
+                            <li><a href="#">Web Design Frontend</a></li>
+                            <li><a href="#">Product Design (UI/UX)</a></li>
+                            <li><a href="#">Data Science</a></li>
+                            <li><a href="#">Python</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="li-gng">Contact</p>
+                        <div class="omo">
+                            <div class>
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="txt">
+                                <p>Abbey Mortgage Bank Building
+                                    51 Okota Road, Chemist Bus Stop,
+                                    Okota-Isolo
+                                    Lagos, Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="omo">
+                            <div class>
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div class="txt">
+                                <p>training@aledoyacademy.com</p>
+                            </div>
+                        </div>
+                        <div class="omo">
+                            <div class>
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <div class="txt">
+                                <p>(+234) 913 597 1419</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="li-gng">Join our newsletter</p>
+                        <div class="form">
+                            <div class="email">
+                                <input type="email" placeholder="Email Address">
+                            </div>
+                            <div class="link">
+                                <a href="#">Submit</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- contact banner ends -->
-
-        <!-- form starts -->
-
-        <div class="form-ctn">
+        <div class="copyright">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-xl-5 txt">
-                        <h1>Get in <span>Touch</span></h1>
-                        <p>Enim tempor eget pharetra facilisis sed maecenas
-                            adipiscing. Eu leo molestie vel, ornare non id
-                            blandit netus.</p>
-                        <form action="post">
-                            <input type="text" name="name" id="name"
-                                placeholder="Name"><br>
-                            <input type="email" name="email" id="email"
-                                placeholder="Email"><br>
-                            <input type="text" name="pnumber" id="pnumber"
-                                placeholder="Phone"><br>
-                            <input type="text" name="subject" id="subject"
-                                placeholder="Subject"><br>
-                            <textarea name="message" id="message"
-                                placeholder="Message"></textarea><br>
-                            <a href="#">Send</a>
-                        </form>
+                    <div class="col-md-4 ft-icons">
+                        <span><i class="bi bi-facebook"></i></span>
+                        <span><i class="bi bi-instagram"></i></span>
+                        <span><i class="bi bi-twitter"></i></span>
+                        <span><i class="bi bi-linkedin"></i></span>
                     </div>
-                    <div class="col-md-6 col-xl-7 map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.63648036117!2d3.119142848718881!3d6.5480282433992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1751411891481!5m2!1sen!2sng"
-                            width="600" height="450" style="border:0;"
-                            allowfullscreen loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="col-md-6">
+                        <p><i class="bi bi-c-circle"></i>2023 Aledoy
+                            Academy. All rights reserved</p>
                     </div>
                 </div>
             </div>
         </div>
+    </footer>
 
-        <!-- form ends -->
+    <!-- footer ends -->
+</body>
 
-        <!-- contact-last sec starts -->
-
-        <div class="ct-last">
-            <div class="container">
-                <div class="ct-last1">
-                    <div class="row">
-                        <div class="col-md-4 last-box">
-                            <div class="icon">
-                                <i class="bi bi-telephone-fill"></i>
-                            </div>
-                            <div class>
-                                <p>(+234) - 913 597 1419</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 last-box uno ik">
-                            <div class>
-                                <img
-                                    src="images/contact-images/u-icon.png"
-                                    alt="icon">
-                            </div>
-                            <div class>
-                                <p class="cw">training@aledoyacademy.com</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 last-box">
-                            <div class="icon">
-                                <i class="bi bi-cursor-fill"></i>
-                            </div>
-                            <div class>
-                                <p>Aledoy Solutions Limited
-                                    Abbey Mortgage Bank Building
-                                    51, Okota Road,
-                                    Okota-Isolo Lagos</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- contact-last sec ends -->
-
-        <!-- last-sec starts -->
-
-        <div class="last-sec">
-            <div class="container">
-                <p>ARE YOU READY?</p>
-                <h2>Be a part of our <span>Hall of Fame</span></h2>
-                <a href="#">JOIN US</a>
-            </div>
-        </div>
-
-        <!-- last sec-ends -->
-
-         <!-- footer starts -->
-
-        <footer>
-            <div class="footer-ctn">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <img src="images/logo.png" alt="logo">
-                        </div>
-                        <div class="col-md-2">
-                            <ul>
-                                <li>Quicklinks</li>
-                                <li><a href="#">The Academy</a></li>
-                                <li><a href="facility.html">Facility</a></li>
-                                <li><a href="faqs.html">FAQs</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-2">
-                            <ul>
-                                <li>Course</li>
-                                <li><a href="#">Web Design Frontend</a></li>
-                                <li><a href="#">Product Design (UI/UX)</a></li>
-                                <li><a href="#">Data Science</a></li>
-                                <li><a href="#">Python</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <p class="li-gng">Contact</p>
-                            <div class="omo">
-                                <div class>
-                                    <i class="bi bi-geo-alt"></i>
-                                </div>
-                                <div class="txt">
-                                    <p>Abbey Mortgage Bank Building
-                                        51 Okota Road, Chemist Bus Stop,
-                                        Okota-Isolo
-                                        Lagos, Nigeria</p>
-                                </div>
-                            </div>
-                            <div class="omo">
-                                <div class>
-                                    <i class="bi bi-envelope"></i>
-                                </div>
-                                <div class="txt">
-                                    <p>training@aledoyacademy.com</p>
-                                </div>
-                            </div>
-                            <div class="omo">
-                                <div class>
-                                    <i class="bi bi-telephone"></i>
-                                </div>
-                                <div class="txt">
-                                    <p>(+234) 913 597 1419</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <p class="li-gng">Join our newsletter</p>
-                            <div class="form">
-                                <div class="email">
-                                    <input type="email"
-                                        placeholder="Email Address">
-                                </div>
-                                <div class="link">
-                                    <a href="#">Submit</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 ft-icons">
-                            <span><i class="bi bi-facebook"></i></span>
-                            <span><i class="bi bi-instagram"></i></span>
-                            <span><i class="bi bi-twitter"></i></span>
-                            <span><i class="bi bi-linkedin"></i></span>
-                        </div>
-                        <div class="col-md-6">
-                            <p><i class="bi bi-c-circle"></i>2023 Aledoy
-                                Academy. All rights reserved</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <!-- footer ends -->
-    </body>
 </html>

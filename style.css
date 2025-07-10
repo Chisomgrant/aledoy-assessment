@@ -491,26 +491,172 @@ footer {
   margin: 100px 0 0 0;
   .ct-last1 {
     background-color: whitesmoke;
-    .last-box{
+    .last-box {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 10px;
       padding: 20px 10px;
     }
-     .uno{
-        border-left: 5px solid white;
-        border-right: 5px solid white;
+    .uno {
+      border-left: 5px solid white;
+      border-right: 5px solid white;
+    }
+    .icon {
+      i {
+        color: #e52936;
       }
-      .icon{
-        i{
-          color: #e52936;
-        }
-      }
+    }
   }
 }
 
 /* contact page ends */
+
+/* web dev page starts */
+.m2 {
+  background-image: url(images/wdf-images/nav-back.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.wdf-banner {
+  .txt {
+    padding-top: 100px;
+    p {
+      color: #e52936;
+      font-size: larger;
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 64px;
+      font-weight: 900;
+    }
+  }
+}
+.wdf-sec1 {
+  margin-top: 100px;
+  .bx {
+    background-color: whitesmoke;
+    height: 150px;
+    text-align: center;
+    padding: 40px 25px 0 25px;
+    p {
+      font-size: 14px;
+    }
+  }
+  .r1 {
+    margin-bottom: 20px;
+  }
+  .red {
+    background-color: #e52936;
+  }
+  .one:before {
+    content: url(images/wdf-images/1.png);
+    position: relative;
+    bottom: 10px;
+  }
+  .one p {
+    position: relative;
+    bottom: 100px;
+    width: 80%;
+    left: 10px;
+  }
+  .two::before {
+    content: url(images/wdf-images/2.png);
+    position: relative;
+    bottom: 10px;
+  }
+  .two p {
+    position: relative;
+    bottom: 100px;
+    width: 80%;
+    left: 10px;
+  }
+  .three::before {
+    content: url(images/wdf-images/3.png);
+    position: relative;
+    bottom: 10px;
+  }
+  .three p {
+    position: relative;
+    bottom: 100px;
+    width: 80%;
+    left: 10px;
+  }
+  .four::before {
+    content: url(images/wdf-images/4.png);
+    position: relative;
+    bottom: 10px;
+  }
+  .four p {
+    position: relative;
+    bottom: 100px;
+    width: 80%;
+    left: 10px;
+  }
+  .five::before {
+    content: url(images/wdf-images/5.png);
+    position: relative;
+    bottom: 10px;
+  }
+  .five p {
+    position: relative;
+    bottom: 100px;
+    width: 80%;
+    left: 10px;
+  }
+  .six::before {
+    content: url(images/wdf-images/6.png);
+    position: relative;
+    bottom: 10px;
+  }
+  .six p {
+    position: relative;
+    bottom: 100px;
+    width: 80%;
+    left: 10px;
+  }
+}
+
+.wdf-sec2{
+  margin: 100px 0 0 0;
+  line-height: 2;
+}
+.wdf-sec3{
+  margin-top: 100px;
+  .ctn{
+    background-color: whitesmoke;
+    height: 200px;
+    text-align: center;
+    padding: 60px 20px 0 20px;
+    p{
+      font-size: 14px;
+      font-weight: 700;
+    }
+    img{
+      width: 35px;
+      padding-bottom: 10px;
+    }
+  }
+  .txt{
+    padding: 200px 0 0 80px;
+    p{
+      font-weight: 700;
+      padding-bottom: 10px;
+    }
+    a{
+      background-color: #e52936;
+      padding: 10px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+/* web dev page ends */
+
 
 /* media query */
 
@@ -593,6 +739,55 @@ footer {
     }
   }
   /* contact page ends */
+
+  /* wdf page starts */
+  .wdf-banner{
+    .txt{
+      padding-top: 40px;
+    }
+    img{
+      width: 400px;
+    }
+  }
+  .wdf-sec1 {
+    .bx {
+      padding: 40px 20px 0 20px;
+      p {
+        font-size: 14px;
+      }
+    }
+    .one p {
+      position: relative;
+      width: auto;
+      left: 5px;
+    }
+    .two p {
+      position: relative;
+      width: auto;
+      left: 5px;
+    }
+    .three p {
+      position: relative;
+      width: auto;
+      left: 5px;
+    }
+    .four p {
+      position: relative;
+      width: auto;
+      left: 5px;
+    }
+    .five p {
+      position: relative;
+      width: auto;
+      left: 5px;
+    }
+    .six p {
+      position: relative;
+      width: auto;
+      left: 5px;
+    }
+  }
+  /* wdf page ends */
 }
 
 @media (max-width: 915px) {
@@ -632,15 +827,53 @@ footer {
       }
     }
   }
-  .ct-last{
-    .ct-last1{
-      .ik{
+  .ct-last {
+    .ct-last1 {
+      .ik {
         display: block;
         padding-top: 40px;
       }
     }
   }
   /* contact page ends */
+
+  /* wdf page starts */
+
+  .wdf-banner {
+    .txt {
+      padding-top: 80px;
+      h1 {
+        font-size: 50px;
+      }
+    }
+    img {
+      width: 380px;
+    }
+  }
+
+  /* wdf page ends */
+
+   /* wdf page starts */
+  .wdf-sec1 {
+    .txt p{
+      font-size: 14px;
+    }
+    .bx {
+      padding: 40px 10px 0 10px;
+      p {
+        font-size: 12px;
+      }
+    }
+    .three p {
+      position: relative;
+      left: 0;
+    }
+    .six p {
+      position: relative;
+      left: 0;
+    }
+  }
+  /* wdf page ends */
 }
 
 @media (max-width: 770px) {
@@ -858,9 +1091,9 @@ footer {
     }
   }
 
-   .ct-last{
-    .ct-last1{
-      .last-box{
+  .ct-last {
+    .ct-last1 {
+      .last-box {
         display: flex;
         justify-content: start;
         padding: 20px 30px;
@@ -869,6 +1102,43 @@ footer {
   }
 
   /* contact page ends */
+
+  /* wdf page starts */
+
+  .m2 {
+    background-image: none;
+  }
+
+  .wdf-banner {
+    margin: 0 0 0 20px;
+    .txt {
+      padding-top: 30px;
+      h1 {
+        font-size: 50px;
+      }
+    }
+    img {
+      width: 400px;
+    }
+  }
+
+    .wdf-sec1 {
+      .sp{
+        margin-bottom: 20px;
+      }
+  }
+
+  .wdf-sec3{
+      .sp{
+        margin-bottom: 25px;
+      }
+      .txt{
+        padding: 30px 0 0 0;
+        text-align: center;
+      }
+  }
+
+  /* wdf page ends */
 }
 
 @media (max-width: 440px) {
@@ -928,6 +1198,21 @@ footer {
   }
 
   /* contact page ends */
+
+  /* wdf page starts */
+
+  .wdf-banner {
+    img {
+      width: 350px;
+    }
+  }
+
+  .wdf-sec3{
+    .ps{
+      padding: 40px 10px 0 10px;
+    }
+  }
+  /* wdf page ends */
 }
 
 @media (max-width: 375px) {
@@ -981,4 +1266,15 @@ footer {
   }
 
   /* contact page ends */
+
+  /* wdf page starts */
+
+  .wdf-banner {
+    margin: 0 0 0 10px;
+    img {
+      width: 300px;
+    }
+  }
+
+  /* wdf page ends */
 }
