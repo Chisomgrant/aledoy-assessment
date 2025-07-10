@@ -675,6 +675,16 @@ footer {
   }
 }
 
+.acad-sec1{
+  margin-top: 100px;
+  .b1{
+    text-align: center;
+  }
+  img{
+    margin-bottom: 5px;
+  }
+}
+
 /* academy page ends */
 
 /* media query */
