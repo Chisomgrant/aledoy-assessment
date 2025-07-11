@@ -675,13 +675,117 @@ footer {
   }
 }
 
-.acad-sec1{
+.acad-sec1 {
   margin-top: 100px;
-  .b1{
+  .b1 {
     text-align: center;
   }
-  img{
+  img {
     margin-bottom: 5px;
+  }
+}
+
+.acad-sec2 {
+  .txt {
+    margin: 400px 0 0 40px;
+  }
+  .fp {
+    p {
+      font-size: 14px;
+      color: #e52936;
+    }
+    .icon1 {
+      background-image: url(images/acad-images/lu.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 60vh;
+      margin: 30px 0 20px 0;
+      span {
+        i {
+          background-color: white;
+          color: #e52936;
+          border-radius: 100%;
+          height: 30px;
+          width: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 10px;
+          position: relative;
+          left: 220px;
+          top: 10px;
+        }
+      }
+    }
+    .icon2 {
+      background-image: url(images/acad-images/pelumi.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 60vh;
+      margin: 30px 0 20px 0;
+      span {
+        i {
+          background-color: white;
+          color: #e52936;
+          border-radius: 100%;
+          height: 30px;
+          width: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 10px;
+          position: relative;
+          left: 220px;
+          top: 10px;
+        }
+      }
+    }
+    .icon3 {
+      background-image: url(images/acad-images/muyiwa.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 60vh;
+      margin: 30px 0 20px 0;
+      span {
+        i {
+          background-color: white;
+          color: #e52936;
+          border-radius: 100%;
+          height: 30px;
+          width: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 10px;
+          position: relative;
+          left: 220px;
+          top: 10px;
+        }
+      }
+    }
+    .icon4 {
+      background-image: url(images/acad-images/segun.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 60vh;
+      margin: 30px 0 20px 0;
+      span {
+        i {
+          background-color: white;
+          color: #e52936;
+          border-radius: 100%;
+          height: 30px;
+          width: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 10px;
+          position: relative;
+          left: 220px;
+          top: 10px;
+        }
+      }
+    }
   }
 }
 
@@ -826,6 +930,55 @@ footer {
     }
   }
 
+  .acad-sec2 {
+    .txt {
+      margin: 50px 0 0 0;
+      text-align: center;
+    }
+    .fp {
+      .icon1 {
+        height: 500px;
+        span {
+          i {
+            position: relative;
+            left: 400px;
+            top: 30px;
+          }
+        }
+      }
+      .icon2 {
+        height: 500px;
+        span {
+          i {
+            position: relative;
+            left: 400px;
+            top: 30px;
+          }
+        }
+      }
+      .icon3 {
+        height: 500px;
+        span {
+          i {
+            position: relative;
+            left: 400px;
+            top: 30px;
+          }
+        }
+      }
+      .icon4 {
+        height: 500px;
+        span {
+          i {
+            position: relative;
+            left: 400px;
+            top: 30px;
+          }
+        }
+      }
+    }
+  }
+
   /* academy page ends */
 }
 
@@ -922,6 +1075,43 @@ footer {
     }
     img {
       width: 350px;
+    }
+  }
+
+  .acad-sec2 {
+    .fp {
+      .icon1 {
+        span {
+          i {
+            position: relative;
+            left: 280px;
+          }
+        }
+      }
+      .icon2 {
+        span {
+          i {
+            position: relative;
+            left: 280px;
+          }
+        }
+      }
+      .icon3 {
+        span {
+          i {
+            position: relative;
+            left: 280px;
+          }
+        }
+      }
+      .icon4 {
+        span {
+          i {
+            position: relative;
+            left: 280px;
+          }
+        }
+      }
     }
   }
 
@@ -1203,6 +1393,43 @@ footer {
     }
   }
 
+  .acad-sec2 {
+    .fp {
+      .icon1 {
+        span {
+          i {
+            position: relative;
+            left: 430px;
+          }
+        }
+      }
+      .icon2 {
+        span {
+          i {
+            position: relative;
+            left: 430px;
+          }
+        }
+      }
+      .icon3 {
+        span {
+          i {
+            position: relative;
+            left: 430px;
+          }
+        }
+      }
+      .icon4 {
+        span {
+          i {
+            position: relative;
+            left: 430px;
+          }
+        }
+      }
+    }
+  }
+
   /* academy page ends */
 }
 
@@ -1290,6 +1517,43 @@ footer {
     }
   }
 
+  .acad-sec2 {
+    .fp {
+      .icon1 {
+        span {
+          i {
+            position: relative;
+            left: 325px;
+          }
+        }
+      }
+      .icon2 {
+        span {
+          i {
+            position: relative;
+            left: 325px;
+          }
+        }
+      }
+      .icon3 {
+        span {
+          i {
+            position: relative;
+            left: 325px;
+          }
+        }
+      }
+      .icon4 {
+        span {
+          i {
+            position: relative;
+            left: 325px;
+          }
+        }
+      }
+    }
+  }
+
   /* academy page ends */
 }
 
@@ -1361,6 +1625,43 @@ footer {
   .acad-bn {
     img {
       width: 300px;
+    }
+  }
+
+  .acad-sec2 {
+    .fp {
+      .icon1 {
+        span {
+          i {
+            position: relative;
+            left: 270px;
+          }
+        }
+      }
+      .icon2 {
+        span {
+          i {
+            position: relative;
+             left: 270px;
+          }
+        }
+      }
+      .icon3 {
+        span {
+          i {
+            position: relative;
+            left: 270px;
+          }
+        }
+      }
+      .icon4 {
+        span {
+          i {
+            position: relative;
+             left: 270px;
+          }
+        }
+      }
     }
   }
 
