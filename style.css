@@ -533,6 +533,11 @@ footer {
       font-weight: 900;
     }
   }
+  .un {
+    h1 {
+      font-size: 55px;
+    }
+  }
 }
 .wdf-sec1 {
   margin-top: 100px;
@@ -638,6 +643,28 @@ footer {
     bottom: 100px;
     width: 80%;
     left: 10px;
+  }
+  .nine::before {
+    content: url(images/wgd-image/9.png);
+    position: relative;
+    bottom: 10px;
+  }
+  .nine p {
+    position: relative;
+    bottom: 100px;
+    width: 80%;
+    left: 10px;
+  }
+  .wide {
+    padding: 30px 10px 0 10px;
+    p {
+      font-size: 13px;
+    }
+  }
+  .tr p {
+    position: relative;
+    bottom: 110px;
+    font-size: 13px;
   }
 }
 
@@ -813,6 +840,25 @@ footer {
 
 /* academy page ends */
 
+/* mad page starts */
+
+.mad-banner {
+  .txt {
+    padding-top: 100px;
+    p {
+      color: #e52936;
+      font-size: larger;
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 54px;
+      font-weight: 900;
+    }
+  }
+}
+
+/* mad page ends */
+
 /* media query */
 
 @media (max-width: 1024px) {
@@ -941,6 +987,10 @@ footer {
       width: auto;
       left: 5px;
     }
+
+    .wide {
+      padding: 30px 5px 0 5px;
+    }
   }
   /* wdf page ends */
 
@@ -1002,6 +1052,24 @@ footer {
   }
 
   /* academy page ends */
+
+  /* mad page starts */
+
+  .mad-banner {
+    .txt {
+      padding-top: 30px;
+      h1 {
+        font-size: 44px;
+        font-weight: 900;
+      }
+    }
+    img {
+      width: 400px;
+      height: 300px;
+    }
+  }
+
+  /* mad page ends */
 }
 
 @media (max-width: 915px) {
@@ -1085,6 +1153,12 @@ footer {
     .six p {
       position: relative;
       left: 0;
+    }
+    .wide {
+      padding: 30px 5px 0 5px;
+      p {
+        font-size: 12px;
+      }
     }
   }
   /* wdf page ends */
@@ -1390,6 +1464,12 @@ footer {
     .sp {
       margin-bottom: 20px;
     }
+    .wide {
+      padding: 40px 10px 0 10px;
+      p {
+        font-size: 12px;
+      }
+    }
   }
 
   .wdf-sec3 {
@@ -1577,6 +1657,17 @@ footer {
   }
 
   /* academy page ends */
+
+  /* mad page starts */
+
+  .mad-banner {
+    img {
+      width: 350px;
+      height: auto;
+    }
+  }
+
+  /* mad page ends */
 }
 
 @media (max-width: 375px) {
@@ -1638,6 +1729,11 @@ footer {
     img {
       width: 300px;
     }
+    .un {
+      h1 {
+        font-size: 45px;
+      }
+    }
   }
 
   /* wdf page ends */
@@ -1664,7 +1760,7 @@ footer {
         span {
           i {
             position: relative;
-             left: 270px;
+            left: 270px;
           }
         }
       }
@@ -1680,7 +1776,7 @@ footer {
         span {
           i {
             position: relative;
-             left: 270px;
+            left: 270px;
           }
         }
       }
@@ -1688,4 +1784,15 @@ footer {
   }
 
   /* academy page ends */
+
+  /* mad page starts */
+
+  .mad-banner {
+    img {
+      width: 300px;
+      height: auto;
+    }
+  }
+
+  /* mad page ends */
 }
