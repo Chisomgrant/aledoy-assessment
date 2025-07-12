@@ -617,6 +617,28 @@ footer {
     width: 80%;
     left: 10px;
   }
+  .seven::before {
+    content: url(images/pd-image/7.png);
+    position: relative;
+    bottom: 10px;
+  }
+  .seven p {
+    position: relative;
+    bottom: 100px;
+    width: 80%;
+    left: 10px;
+  }
+  .eight::before {
+    content: url(images/pd-image/8.png);
+    position: relative;
+    bottom: 10px;
+  }
+  .eight p {
+    position: relative;
+    bottom: 100px;
+    width: 80%;
+    left: 10px;
+  }
 }
 
 .wdf-sec2 {
